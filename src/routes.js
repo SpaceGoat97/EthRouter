@@ -6,8 +6,10 @@ const Chunk = ChunkGenerator(ChunkComponent);
 
 const routes = {
   "/": Home,
-  "/random": Chunk(() =>  import ('pages/Random.svelte')),
-  "/hello/:name?": Chunk(() =>  import ('pages/Hello.svelte')),
+  "/dashboard": Chunk(() =>  import ('pages/Dashboard.svelte')),
+  "/profile/:name?": Chunk(() =>  import ('pages/Profile.svelte')),
+  "/profile": Chunk(() =>  import ('pages/Profile.svelte')),
+
 };
 
 export default routes;

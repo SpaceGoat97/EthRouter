@@ -6,10 +6,6 @@
 </script>
 
 <style>
-  main {
-    @apply max-w-4xl mx-auto;
-  }
-
 </style>
 
 <Tailwindcss />

@@ -4,20 +4,10 @@
 </script>
 
 <style>
-  :global(a.active) {
-    @apply text-white font-semibold;
-  }
 
-  nav {
-    @apply bg-indigo-500 p-6;
-  }
-
-  .nav-link {
-    @apply text-lg uppercase;
-  }
 </style>
 
-<nav class="flex items-center justify-between flex-wrap">
+<nav class="flex items-center justify-between flex-wrap bg-indigo-500 p-6">
   <div class="flex items-center flex-shrink-0 text-white md:mr-12">
 
     <img src="favicon.png" alt="logo" class="h-8 w-8 mr-2" />
@@ -47,7 +37,7 @@
         hover:text-white mr-4 nav-link"
         use:link
         use:active>
-        Home
+        Dashboard
       </a>
       <a
         href="/hello/"
@@ -63,7 +53,7 @@
         hover:text-white nav-link"
         use:link
         use:active>
-        Random
+        Profile
       </a>
     </div>
   </div>
