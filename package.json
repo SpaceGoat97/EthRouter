@@ -20,7 +20,7 @@
     "@testing-library/svelte": "^1.11.2",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "postcss": "^7.0.35",
+    "postcss": "^8.2.10",
     "postcss-load-config": "^2.1.2",
     "rollup": "^1.32.1",
     "rollup-plugin-bundle-size": "^1.0.3",
